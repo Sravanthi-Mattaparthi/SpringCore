@@ -1,0 +1,9 @@
+package com.qualifier;
+
+public class Honda {
+	
+	private Models models; //HAS a relationship
+	
+	
+
+}

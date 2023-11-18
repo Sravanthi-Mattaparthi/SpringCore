@@ -1,0 +1,10 @@
+package com.one;
+
+//Constructor Injection value as element
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
+}

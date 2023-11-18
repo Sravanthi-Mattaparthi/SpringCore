@@ -1,0 +1,23 @@
+package com.dl.constructorInjection;
+
+public class Honda {
+	
+	HondaCars hondacars;
+
+	//default constructor
+	public Honda() {
+	
+	}
+	
+	
+	//parameterized constructor
+
+	//toString
+	
+	@Override
+	public String toString() {
+		return "Honda [hondacars=" + hondacars + "]";
+	}
+	
+
+}

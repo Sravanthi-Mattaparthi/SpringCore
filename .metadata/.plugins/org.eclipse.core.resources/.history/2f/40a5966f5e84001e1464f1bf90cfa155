@@ -1,0 +1,9 @@
+package com.one;
+
+public class Student {
+	
+	private int rollno;
+	private double stipend;
+	private String university;
+
+}

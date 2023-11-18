@@ -1,0 +1,22 @@
+package com.one;
+
+public class Brand {
+
+	private Models models;
+
+	
+	//default constructor
+public Brand() {
+	
+}
+
+	//toString
+	
+	@Override
+	public String toString() {
+		return "Brand [models=" + models + "]";
+	}
+	
+	
+	
+}

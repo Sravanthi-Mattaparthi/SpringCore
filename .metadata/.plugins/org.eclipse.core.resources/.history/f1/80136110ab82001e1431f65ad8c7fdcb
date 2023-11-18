@@ -1,0 +1,9 @@
+package com.injection.SpringCore102_DependencyInjection;
+
+public class Car {
+	
+	public String Honda() {
+		return "Honda City";
+	}
+
+}

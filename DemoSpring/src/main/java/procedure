@@ -1,0 +1,31 @@
+The following is the procedure to create a simple spring framework.
+
+1. Open any IDE, in my case I used Eclipse.
+2. Go to file -> new -> create maven project
+3. select the workspace , catalog as internal -> archetype as quickstart for corejava project .
+4. Provide ArtifactId which is the name of the project , then GroupId as package name finish
+
+Note: if the project struck at 33% build process in the console type "y" then your project will be built successfully 
+
+5. By default you will get App.java file in the folder of src/main/java
+6. select the pom.xml file add the dependencies of spring either from the spring.io website or you can get it from maven repository.
+7. Copy the dependencies and paste in the dependencies in the pom.xml file.
+8. go to the project right click on it -> go to maven ->update maven project.
+9. create two classes one for car.java and the other for bike.com
+10. Now create a interface named as vehicle 
+11. The two classes should implements the vehicle as interface
+12. In App.java file in order to achieve dependency injection create a getbean method which is their in the BeanFactory as well as ApplicationContect interface
+13. If we want to build small projects we can go for BeanFactor or for enterprise level we can go for Application Context
+14. Application context is the super class of BeanFactory 
+15. If we get any compile time error first check all the dependencies related to springframework.
+16. Also check the imports related to the code.
+17. While using ApplicationContext on the right side of the code having new keyword mention the xml file that we create in invited code.
+18. Create a xml file -> as the user is creating the xml file , it first uses the customs tags
+19. Beans is the root tag of xml file , inside the beans we have one more tag as bean 
+20. Inside bean tag mention the id , class either if we want to use car or bike with complete package.
+21. Also in the root tag that is Beans mention the spring framework definition , for customs tags we need to use definitions. 
+22. Then run the file which is having main
+
+
+
+----------------------Finally this is the one type of configuration , that is by use of xml-------------------

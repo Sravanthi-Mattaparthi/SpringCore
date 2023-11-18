@@ -1,0 +1,19 @@
+package com.qualifier;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+       ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("qualifier.xml");
+       
+       Honda h = (Honda) context.getBean("id1");
+       
+       System.out.println(h);
+       
+       System.out.println(h.getModels());
+       
+       context.close();
+    }
+}

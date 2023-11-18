@@ -1,0 +1,35 @@
+package com.constructor;
+
+public class Honda {
+
+	private Models models;
+	
+	//default constructor
+	public Honda() {
+		
+	}
+	
+	
+	//parametrized constructor
+
+	//setters and getters
+	public Models getModels() {
+		return models;
+	}
+
+	public void setModels(Models models) {
+		this.models = models;
+	}
+
+	
+	//toString
+	
+	@Override
+	public String toString() {
+		return "Honda [models=" + models + "]";
+	}
+	
+	
+	
+	
+}

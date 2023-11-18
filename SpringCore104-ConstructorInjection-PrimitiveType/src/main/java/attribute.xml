@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean name="id1" class ="com.two.Location">
+<constructor-arg value="Hyderabad"></constructor-arg>
+<constructor-arg value="Telangana"></constructor-arg>
+<constructor-arg><ref bean="id2"></ref></constructor-arg>
+
+</bean>
+
+
+<bean name="id2" class ="com.two.Student">
+<constructor-arg value="5206"></constructor-arg>
+<constructor-arg value ="Civil"></constructor-arg>
+<constructor-arg value="Andhra University"></constructor-arg>
+</bean>
+
+</beans>

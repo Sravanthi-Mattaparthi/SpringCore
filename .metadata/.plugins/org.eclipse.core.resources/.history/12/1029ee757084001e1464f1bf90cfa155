@@ -1,0 +1,15 @@
+package com.dl.setterInjection;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+//innerBeans setterInjection
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext();
+    	Honda h =(Honda)context.getBean("id1");
+        
+    }
+}

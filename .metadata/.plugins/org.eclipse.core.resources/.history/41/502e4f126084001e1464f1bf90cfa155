@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans >
+
+   <bean class="com.one.Student" name="id1"></bean>
+
+</beans>

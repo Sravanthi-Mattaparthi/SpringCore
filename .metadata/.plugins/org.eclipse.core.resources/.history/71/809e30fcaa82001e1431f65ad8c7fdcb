@@ -1,0 +1,8 @@
+package com.injection.SpringCore102_DependencyInjection;
+
+public class Bike {
+	public String Honda() {
+	return "CBZ Xtreme";
+	}
+
+}

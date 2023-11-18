@@ -1,0 +1,7 @@
+package com.withoutByType;
+
+public class Models {
+
+	private String models;
+	private String type;
+}

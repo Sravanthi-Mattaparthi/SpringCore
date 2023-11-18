@@ -1,0 +1,11 @@
+package com.qualifier;
+
+public class Models {
+
+	private String carName;
+	private double cost;
+	private String generation;
+	private String type;
+	
+	
+}

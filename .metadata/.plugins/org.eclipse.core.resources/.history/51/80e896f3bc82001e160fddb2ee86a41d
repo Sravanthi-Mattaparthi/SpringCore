@@ -1,0 +1,11 @@
+package com.one;
+
+//setter injection values as element
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+       
+    }
+}

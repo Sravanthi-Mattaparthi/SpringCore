@@ -1,0 +1,20 @@
+package com.qualifier;
+
+public class Honda {
+	
+	private Models models; //HAS a relationship
+
+	public Models getModels() {
+		return models;
+	}
+
+	public void setModels(Models models) {
+		this.models = models;
+	}
+	
+	
+	
+	
+	
+
+}

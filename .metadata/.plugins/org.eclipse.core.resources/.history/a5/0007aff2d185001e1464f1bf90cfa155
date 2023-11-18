@@ -1,0 +1,33 @@
+package com.component;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+       ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("component.xml");
+       
+       Honda h = (Honda) context.getBean("id1");
+       
+       System.out.println(h);
+       
+       System.out.println(h.getModels());
+       
+       context.close();
+    }
+}
+
+
+/*
+ @Component use the class name as object reference,
+ 
+ For ex: the class name is Honda , inside  id1 in getBeans method we need to pass the class name as object reference 
+ Honda h = (Honda) context.getBean("Honda");
+ <bean name="Honda" class="com.component.Honda"></bean>
+ 
+ Also we need to use @Autowired annotation in the class that we name as @component
+ 
+ 
+ */
+ 

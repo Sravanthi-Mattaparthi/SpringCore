@@ -1,0 +1,17 @@
+package com.dl.setterInjection;
+
+public class Honda {
+	
+	HondaCars hondacars;
+
+	public HondaCars getHondacars() {
+		return hondacars;
+	}
+
+	public void setHondacars(HondaCars hondacars) {
+		this.hondacars = hondacars;
+	}
+	
+	
+
+}

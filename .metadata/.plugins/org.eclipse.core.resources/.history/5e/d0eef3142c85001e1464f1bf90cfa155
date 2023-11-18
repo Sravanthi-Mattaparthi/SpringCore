@@ -1,0 +1,13 @@
+package com.withoutByType;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+       
+    	ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext();
+    	Honda h = (Honda) context.getBean("id1");
+    }
+}

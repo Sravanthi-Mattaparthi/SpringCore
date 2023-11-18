@@ -1,0 +1,16 @@
+package com.one;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+       
+    	ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("ambiquities.xml");
+    	Student s = (Student)context.getBean("id1");
+    	System.out.println(s);
+    	context.close();
+    	
+    }
+}

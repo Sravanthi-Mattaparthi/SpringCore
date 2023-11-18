@@ -1,0 +1,14 @@
+package com.map;
+
+import java.util.Map;
+
+public class Honda {
+
+
+private String sname;
+private Map<Integer,String> models;
+
+
+	
+
+}

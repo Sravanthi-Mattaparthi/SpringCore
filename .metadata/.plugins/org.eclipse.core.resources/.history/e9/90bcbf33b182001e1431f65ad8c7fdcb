@@ -1,0 +1,6 @@
+package com.injection.SpringCore102_DependencyInjection;
+
+public interface Brand {
+
+	String Honda();
+}

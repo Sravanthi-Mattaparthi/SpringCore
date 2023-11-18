@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans>
+
+<bean name="id1" class ="com.one.Location">
+<constructor-arg><value>5211</value></constructor-arg>
+<constructor-arg><value>PED</value></constructor-arg>
+<constructor-arg><value>JNTUK</value></constructor-arg>
+
+</bean>
+</beans>

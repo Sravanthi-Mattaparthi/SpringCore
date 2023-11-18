@@ -1,0 +1,33 @@
+package com.required;
+
+import java.util.List;
+
+public class Honda {
+	
+	private int vno;
+	private List<String> models;
+	
+	
+	public int getVno() {
+		return vno;
+	}
+	public void setVno(int vno) {
+		this.vno = vno;
+	}
+	public List<String> getModels() {
+		return models;
+	}
+	public void setModels(List<String> models) {
+		this.models = models;
+	}
+	
+	
+	//toString Method
+	@Override
+	public String toString() {
+		return "Honda [vno=" + vno + ", models=" + models + "]";
+	}
+	
+	
+
+}

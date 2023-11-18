@@ -1,0 +1,22 @@
+package com.qualifier;
+
+public class Honda {
+	
+	private Models models; //HAS a relationship
+
+	
+	//setters and getters
+	public Models getModels() {
+		return models;
+	}
+
+	public void setModels(Models models) {
+		this.models = models;
+	}
+	
+	
+	//toString
+	
+	
+
+}

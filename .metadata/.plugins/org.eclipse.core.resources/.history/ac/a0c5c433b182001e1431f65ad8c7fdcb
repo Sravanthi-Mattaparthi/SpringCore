@@ -1,0 +1,9 @@
+package com.injection.SpringCore102_DependencyInjection;
+
+public class Bike implements Brand {
+	
+	public String Honda() {
+	     return "CBZ Xtreme";
+	}
+
+}

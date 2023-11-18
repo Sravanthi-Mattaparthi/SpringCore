@@ -1,0 +1,9 @@
+package com.injection.SpringCore102_DependencyInjection;
+
+public class Car implemnets Brand {
+	
+	public String Honda() {
+		return "Honda City";
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.two;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+//setter injection values as element
+//we use value along with name in same property tag
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+       
+    	ClassPathXmlApplicationContext context	= new ClassPathXmlApplicationContext("spring.xml"); 
+    	Honda h = (Honda) context.getBean("id1",Honda.class);
+    	System.out.println("Vehicle name: " +h.getVname());
+    	System.out.println("Vehicle no: " +h.getVno());
+    	context.close();
+    }
+}

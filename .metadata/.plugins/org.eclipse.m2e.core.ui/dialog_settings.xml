@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\mouli\OneDrive\Desktop\Spring\SpringCore103-SetterInjection-PrimitiveType"/>
+			<item value="C:\Users\mouli\OneDrive\Desktop\Spring"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.one"/>
+			<item value="com.injection.SpringCore102_DependencyInjection"/>
+			<item value="com.dl.Spring"/>
+			<item value="com.telusko.satya"/>
+		</list>
+		<list key="groupId">
+			<item value="com.one"/>
+			<item value="com.injection"/>
+			<item value="com.dl"/>
+			<item value="com.telusko"/>
+		</list>
+		<list key="artifactId">
+			<item value="SpringCore104-ConstructorInjection-PrimitiveType"/>
+			<item value="SpringCore103-SetterInjection-DependencyCheck"/>
+			<item value="SpringCore103-SetterInjection-ObjectReference"/>
+			<item value="SpringCore103-SetterInjection-Properties"/>
+			<item value="SpringCore103-SetterInjection-Collections"/>
+			<item value="SpringCore103-SetterInjection"/>
+			<item value="SpringCore103_SetterInjection"/>
+			<item value="SpringCore102-DependencyInjection"/>
+			<item value="Spring"/>
+			<item value="satya"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

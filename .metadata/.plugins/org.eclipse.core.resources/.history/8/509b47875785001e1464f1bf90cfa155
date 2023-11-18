@@ -1,0 +1,12 @@
+package com.one;
+
+
+//Autowire at setter injection
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+       
+    }
+}

@@ -1,0 +1,22 @@
+package com.dl.constructorInjection;
+
+public class HondaCars {
+	
+
+	//default constructor
+public HondaCars() {
+	// TODO Auto-generated constructor stub
+}
+	
+	//toString
+	@Override
+	public String toString() {
+		return "HondaCars [carModels=" + carModels + "]";
+	}
+	
+	
+	
+	
+	
+
+}

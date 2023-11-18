@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SpringCore103-SetterInjection-ObjectReference/src/main/java/properties.xml&apos; to &apos;objRef.xml&apos;" description="Rename resource &apos;properties.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/properties.xml" name="objRef.xml" stamp="1700028948230" updateReferences="true"/>
+</session>
